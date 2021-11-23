@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html>
-<title>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{
+        background-color: rgb(130, 238, 148);
+    }
+    .navbar{
+        width: 100%;
+        background: yellow;
+        overflow: auto;
+    }
+    .navbar{
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: turquoise;
+        font-size: 17px;
+    }
+    .navbar:hover{
+        background-color: #000;
 
-</title>
-
-
+    }
+    .active{
+        background-color: #04aa6d;
+    }
+    @media screen and (max-width: 500px;){
+        .navbar a{
+            float: none;
+            display: block;
+        }
+    }
+</style>
 <body>
+<div class="navbar">
+    <a class="active"
+    href="#"><i class="fa fa-fw fa-projects"></i>projects</a>
+<a href="#"><i class="fa fa-fw fa-blog"></i>blog</a>
+<a href="#"><i class="fa fa-fw fa-services"></i>services</a>
+<a href="#"><i class="fa fa-fw fa-about"></>about</a>
 
-    <li><a href="#">james sagah</a></li>
-    <li><a href="#">projects</a></li>
-    <li><a href="#">about</a></li>
-    <li><a href="#">blog</a></li>
+
+
+</div>
     <hr>
     <article>
         <hi>PERSOANAL DETAILS</hi>
-        <p>im a student at Zetech universty parsuing information technolgy ,ive been developing progaramming related concepts search as c++ website development using css,html and javascript.
+        <p1>im a student at Zetech universty parsuing information technolgy ,ive been developing progaramming
+             related concepts search as c++ website development using css,html and javascript.</p1>
 
-        </p>
         <h1>im currently studying</h1>
         <style>
             table,
@@ -53,17 +87,55 @@
         </table>
     </article>
     <hr>
+
     <footer>
-        <ul>
-            <li><a href="#">linkedlin</a></li>
-            <li>
-                <a href="#">twitter</a></li>
-            <li><a href="#">github</a></li>
-            <li><a href="#">instagram</a></li>
-        </ul>
+            <style>
+                .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                }
+                .fa:hover{
+                    opacity:0.7;
+                }
+                .fa-facebook{
+                    background: #3b5998;
+                    color: white;
+                }
+                .fa-twitter{
+                    background: #55acce;
+                    color: white;
+                }
+                .fa-linkedin{
+                    background: #007bb5;
+                    color: white;
+                }
+                .fa-github{
+                    background: violet;
+                    color: white;
+                }
+                .fa-instagram{
+                    background: yellowgreen;
+                    color: white;
+                }
+            </style>
+            </head>
+            <--add font awesom icons-->
+                <h3>my social media plartfoms</h3>
+                <a href="#"class="fa fa-facebook"></a>
+                <a href="#"class="fa fa-twitter"></a>
+                <a href="#"class="fa fa-github"></a>
+                <a href="#"class="fa fa-instagram"></a>
+                <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <p> &copy;2021.all rights are reserved</p>
         <p>&trade;James Sagah</p>
     </footer>
     <hr>
+
 
 </body>
